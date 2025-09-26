@@ -12,7 +12,8 @@
     "build": "tsc && tsc-alias",
     "start": "pm2 start ./dist/index.js --no-daemon",
     "generate": "drizzle-kit generate",
-    "migrate": "drizzle-kit migrate"
+    "migrate": "drizzle-kit migrate",
+    "studio": "drizzle-kit studio"
   },
   "author": "",
   "license": "MIT",
